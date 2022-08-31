@@ -4,7 +4,6 @@ namespace Geneowak\WeightConversions;
 
 class Weight
 {
-
     public function __construct(protected float $kilos)
     {
     }
