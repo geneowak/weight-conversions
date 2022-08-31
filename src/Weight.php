@@ -27,4 +27,9 @@ class Weight
     {
         return $this->kilos * 35.274;
     }
+
+    public function toGrams()
+    {
+        return $this->kilos * 1000;
+    }
 }

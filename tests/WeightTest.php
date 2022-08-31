@@ -20,3 +20,9 @@ it('can convert kilograms to ounces correctly', function () {
 
     expect($ounces)->toEqual(3527.4);
 });
+
+it('can convert kilograms to grams correctly', function () {
+    $grams = Weight::kilograms(100)->toGrams();
+
+    expect($grams)->toEqual(100000);
+});
