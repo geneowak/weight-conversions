@@ -4,11 +4,9 @@ namespace Geneowak\WeightConversions;
 
 class Weight
 {
-    protected float $kilos;
 
-    public function __construct($kilos)
+    public function __construct(protected float $kilos)
     {
-        $this->kilos = $kilos;
     }
 
     public static function kilograms(float $kilos): self
