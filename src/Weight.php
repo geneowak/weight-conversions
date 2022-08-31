@@ -22,4 +22,9 @@ class Weight
     {
         return $this->kilos * 0.15747;
     }
+
+    public function toOunces(): float
+    {
+        return $this->kilos * 35.274;
+    }
 }
